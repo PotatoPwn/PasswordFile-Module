@@ -3,7 +3,7 @@
 version = 4
 
 [[package]]
-name = "Password-Module"
+name = "Passfilt"
 version = "0.1.0"
 dependencies = [
  "rand",
