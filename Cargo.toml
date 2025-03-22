@@ -1,0 +1,21 @@
+[package]
+name = "Password-Module"
+version = "0.1.0"
+edition = "2021"
+
+[lib]
+crate-type = ["cdylib"]
+
+[dependencies.zeroize]
+version = "1.8.1"
+
+
+[dependencies.windows-sys]
+version = "0.59.0"
+features = ["Win32_Foundation"]
+
+[dependencies.zxcvbn]
+version = "3.1.0"
+
+[dependencies]
+rand = "0.9.0"
